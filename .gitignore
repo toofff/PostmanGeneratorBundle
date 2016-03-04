@@ -1,3 +1,7 @@
+tests/Fixtures/app/cache/*
+!tests/Fixtures/app/cache/.gitkeep
+tests/Fixtures/app/logs/*
+!tests/Fixtures/app/logs/.gitkeep
 vendor
 composer.phar
 composer.lock
