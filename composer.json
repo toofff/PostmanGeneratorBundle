@@ -27,11 +27,18 @@
         "behat/mink": "~1.5",
         "behat/mink-extension": "~2.0",
         "behat/mink-browserkit-driver": "~1.1",
-        "behatch/contexts": "~2.3"
+        "behatch/contexts": "~2.3",
+        "doctrine/orm": "~2.2,>=2.2.3",
+        "doctrine/doctrine-bundle": "~1.2"
     },
     "autoload": {
         "psr-4": {
             "PostmanGeneratorBundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PostmanGeneratorBundle\\Tests\\": "tests"
         }
     },
     "extra": {
